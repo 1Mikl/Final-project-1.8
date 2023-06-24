@@ -1,0 +1,121 @@
+body {
+    height: 100%;
+}
+
+.header {
+    display: flex;
+    padding: 10px;
+	background: #000000;
+    color: #fff;
+	height: 100%;
+    font-family: Geneva;
+}
+
+.inner-header {
+    display: flex;
+    float: center;
+    width: 100%;
+}
+
+.logo-container {
+    white-space: nowrap;
+    font-size: 150%;
+    padding: 5px 30px;
+    margin: 0 auto;
+}
+
+.navigation {
+    display: flex;
+    white-space: nowrap;
+    margin: 0 auto;
+
+    
+}
+ 
+.navigation a {
+    text-decoration: none;
+    height: 30px;
+    padding: 45px 25px;
+    background-color: #000000;
+}
+ 
+.navigation a li { 
+    display: table-cell;
+    font-size: 160%;
+    color: rgb(252, 252, 252);
+}
+ 
+.navigation a:hover {
+    background-color: rgb(70, 67, 67);
+    color: #000000;
+    border-radius: 40px;
+}
+
+.right {
+    height: 500px;
+    float: left;
+    vertical-align: top;
+    margin-left: 300px;
+    margin-right: 5px;
+    margin-top: 1px;
+
+}
+
+.inner {
+    font-family: Tahoma, Geneva, sans-serif;
+}
+
+h2 {
+    font-size: 30px;
+    margin: 70px 300px 0 300px;
+    padding-bottom: 1px;
+    border-bottom: 1px solid #000000;
+}
+
+p {
+    margin: 5px;
+    margin: 0 350px 15px 0;
+}
+
+.rig {
+    float: left;
+    height: 100px;
+    margin-left: 300px;
+    padding: 10px;
+    
+    
+}
+
+li {
+    display: block;
+  }
+
+.inn {
+    display: flex;
+    font-family: Tahoma, Geneva, sans-serif;
+    margin: 0 auto;
+    padding: 2px;
+    font-size: 20px;
+}
+
+.inn p {
+    
+    font-family: Tahoma, Geneva, sans-serif;
+    margin-left: 100px;
+    padding: 2px;
+    font-size: 20px;
+}
+
+.rigs {
+    
+    float: left;
+    height: 100px;
+    margin-left: 100px;
+    padding: 10px;
+}
+
+.int {
+    font-family: Tahoma, Geneva, sans-serif;
+    font-size: 20px;
+    
+}

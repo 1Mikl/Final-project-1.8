@@ -1,0 +1,56 @@
+.header{
+    display: flex;
+    justify-content: space-between;
+    padding: 10px;
+	background: #000000;
+    color: #fff;
+	height: 100px;
+    font-family: verdana;
+}
+
+.inner-header{
+    display: flex;
+    align-items: center;
+
+}
+
+.logo-container{
+    text-align: center;
+    font-size: 20px;
+    padding: 10px 200px;
+    font-family: verdana;
+}
+
+.navigation{
+    text-align: right;
+    float: right;
+    padding: 10px 15px;
+    
+    
+}
+ 
+.navigation a{
+    height: 100%;
+    display: table;
+    float: left;
+    padding: 10px 20px;
+    background-color: #000000;
+}
+ 
+.navigation a li{
+    vertical-align: middle;
+    display: table-cell;
+    font-size: 25px;
+    color: rgb(252, 252, 252);
+}
+ 
+.navigation a:hover{
+    background-color: rgb(70, 67, 67);
+    color: #000000;
+    border-radius: 40px;
+}
+
+.right{
+    margin-left: 80;
+
+}
